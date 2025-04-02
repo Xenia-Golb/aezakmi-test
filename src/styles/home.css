@@ -1,0 +1,70 @@
+.main-screen {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.dashboard-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 10px;
+    margin-bottom: 16px;
+    width: 200px;
+    height: 40px;
+    transition: all 0.3s ease;
+    transform: translateX(0);
+
+    h3 {
+        color: var(--primary-color);
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    svg {
+        fill: #161846;
+    }
+
+}
+
+.dashboard-card.active {
+    border-radius: 100px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transform: translateX(5px);
+
+    h3 {
+        color: var(--default-color);
+    }
+
+    svg {
+        fill: var(--default-color);
+    }
+
+
+}
+
+.logo {
+    color: #007AFF;
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.btn-logout {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 114px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: var(--primary-color);
+    font-size: 16px;
+}

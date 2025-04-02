@@ -1,8 +1,8 @@
-import { renderMainScreen } from "./screens/main.js";
-import { renderCurrencyScreen } from "./screens/currency.js";
-import { renderVideoScreen } from "./screens/video.js";
-import { renderTimerScreen } from "./screens/timer.js";
-import { renderAuthScreen } from "./screens/auth.js";
+import { renderMainScreen } from "../screens/home.js";
+import { renderCurrencyScreen } from "../screens/currency.js";
+import { renderVideoScreen } from "../screens/video.js";
+import { renderTimerScreen } from "../screens/timer.js";
+import { renderAuthScreen } from "../screens/auth.js";
 
 export const routes = [
   {
